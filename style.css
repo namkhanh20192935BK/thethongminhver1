@@ -1,0 +1,35 @@
+/* body {
+  position: relative;
+}
+.header,
+.main,
+.footer {
+  height: 100px;
+  border: 1px solid gray;
+  position: absolute;
+  right: 30%;
+  left: 30%;
+} */
+
+body {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header,
+.main,
+.footer {
+  border: 1px solid black;
+  width: 300px;
+  height: auto;
+}
+
+.main a {
+  display: block;
+  background-color: rgb(184, 184, 243);
+  margin: 10px 0px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
