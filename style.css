@@ -1,9 +1,8 @@
-/* * {
-  padding: 10px;
-  margin: 10px;
-} */
-
 body {
+  background-image: url(./img/1263.jpg);
+  object-fit: cover;
+  object-position: center;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,19 +11,57 @@ body {
 .header,
 .main,
 .footer {
-  border: 1px solid black;
+  /* s */
   height: auto;
   width: 100%;
 }
-.header .logo img {
-  width: 100%;
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
-
+.header p {
+  font-size: 20px;
+}
+.header .logo img {
+  /* width: 100%; */
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: 50% 40%;
+  border-radius: 10px;
+  box-shadow: 1px 2px 2px gray;
+}
+/* main */
+.main {
+  border-top: 1px solid black;
+}
 .main a {
-  display: block;
-  background-color: rgb(184, 184, 243);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: rgb(20, 154, 202);
   margin: 10px 0px;
-  padding: 10px 20px;
+  padding: 20px 20px;
   border-radius: 5px;
   text-decoration: none;
+  color: initial;
+  box-shadow: 1px 2px 2px gray;
+}
+.main a img {
+  width: 30px;
+}
+.main a span {
+  font-size: 20px;
+}
+.main a .icon {
+  font-size: 30px;
+}
+
+/* footer */
+
+.footer {
+  border-top: 1px solid black;
 }
