@@ -1,3 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap");
+/* html {
+  font-family: "Lobster", cursive;
+  /* font-family: "Dancing Script", cursive; */
+  /* font-family: "Lobster", cursive; */
+  /* font-family: "Pacifico", cursive;
+  font-family: "Prata", serif; */
+  font-family: "Imperial Script", cursive;
+} */
 body {
   object-fit: cover;
   object-position: center;
@@ -33,6 +46,15 @@ body {
   border-radius: 10px;
   box-shadow: 1px 2px 2px gray;
 }
+.header .header-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.header .header-maxim {
+  text-align: center;
+}
 /* main */
 .main {
   border-top: 1px solid black;
@@ -66,4 +88,5 @@ body {
 
 .footer {
   border-top: 1px solid black;
+  text-align: center;
 }
