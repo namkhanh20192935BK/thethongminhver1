@@ -71,9 +71,6 @@ body {
   color: initial;
   box-shadow: 1px 2px 2px gray;
 }
-.main a:hover {
-  background-color: white;
-}
 .main a img {
   width: 30px;
 }
