@@ -2,7 +2,7 @@ html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 body {
-  background-image: url(./img/background.jpg);
+  /* background-image: url(./img/background.jpg); */
   object-fit: cover;
   object-position: center;
   background-repeat: no-repeat;
@@ -33,7 +33,7 @@ body {
   height: 200px;
   object-fit: cover;
   object-position: 50% 40%;
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: 2px 5px 2px gray;
   filter: brightness(110%);
 }
@@ -46,11 +46,12 @@ body {
 }
 .header .header-maxim {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-style: italic;
 }
 /* main */
 .main {
+  width: 95%;
   border-top: 1px solid gray;
   margin: 10px 0px;
   padding-top: 10px;
@@ -61,9 +62,9 @@ body {
   gap: 5px;
   align-items: center;
   background-image: linear-gradient(to right, #12c2e9, #c4a1d6, #f59097);
-  margin: 10px 0px;
-  padding: 20px 20px;
-  border-radius: 5px;
+  margin: 15px 0px;
+  padding: 15px 20px;
+  border-radius: 50px 50px 50px 50px;
   text-decoration: none;
   color: initial;
   box-shadow: 1px 2px 2px gray;
